@@ -26,7 +26,7 @@ use Symfony\Component\HttpFoundation\Request as HttpRequest;
  *   $carrier = Omniship::create('Correios');
  * </code>
  *
- * @see Omniship\Omniship
+ * @see \Omniship\Omniship
  */
 class CarrierFactory
 {

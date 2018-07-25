@@ -31,9 +31,6 @@
         "php-http/httplug": "^1.1",
         "guzzlehttp/psr7": "^1.4"
     },
-    "suggest": {
-        "league/omnipay": "The default Omniship package provides a default HTTP Adapter."
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }

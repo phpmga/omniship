@@ -6,7 +6,7 @@
 namespace Omniship\Common;
 
 /**
- * Payment Method
+ * Shipping Service
  *
  * This class defines a shipping service to be used in the Omniship system.
  *
@@ -16,9 +16,7 @@ class ShippingService
 {
 
     /**
-     * The CODE of the shipping service.
-     *
-     * @see Issuer
+     * The ID of the shipping service.
      *
      * @var string
      */

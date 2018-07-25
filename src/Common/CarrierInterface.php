@@ -13,9 +13,9 @@ namespace Omniship\Common;
  *
  * @see AbstractCarrier
  *
- * @method \Omniship\Common\Message\RequestInterface quote(array $options = array())               (Optional method)
+ * @method \Omniship\Common\Message\RequestInterface quote(array $parameters = array())               (Optional method)
  *
- * @method \Omniship\Common\Message\RequestInterface track(array $options = array())               (Optional method)
+ * @method \Omniship\Common\Message\RequestInterface track(array $parameters = array())               (Optional method)
  *
  */
 interface CarrierInterface
@@ -50,6 +50,7 @@ interface CarrierInterface
 
     /**
      * Initialize carrier with parameters
+     * @param array $parameters
      * @return $this
      */
     public function initialize(array $parameters = array());

@@ -235,54 +235,6 @@ abstract class AbstractRequest implements RequestInterface
     }
 
     /**
-     * Get the sender data.
-     *
-     * @return string
-     */
-    public function getSender()
-    {
-        return $this->getParameter('sender');
-    }
-
-    /**
-     * Set the sender data.
-     *
-     * @param string $value
-     * @return $this
-     */
-    public function setSender($value)
-    {
-        return $this->setParameter('sender', $value);
-    }
-
-    /**
-     * Get the shipping service.
-     *
-     * This field is used by some Shipping Companies, which support
-     * multiple shipping services with a single API.
-     *
-     * @return string
-     */
-    public function getService()
-    {
-        return $this->getParameter('service');
-    }
-
-    /**
-     * Set the shipping service.
-     *
-     * This field is used by some Shipping Companies, which support
-     * multiple shipping services with a single API.
-     *
-     * @param string $value
-     * @return $this
-     */
-    public function setService($value)
-    {
-        return $this->setParameter('service', $value);
-    }
-
-    /**
      * Send the request
      *
      * @return ResponseInterface
