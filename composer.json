@@ -1,5 +1,5 @@
 {
-    "name": "omniship/common",
+    "name": "phpmga/omniship-common",
     "type": "library",
     "description": "Common components for Omniship shipment processing library",
     "keywords": [
